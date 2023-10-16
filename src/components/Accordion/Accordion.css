@@ -1,0 +1,28 @@
+/* Accordion */
+p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 20px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #3023ad;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+.accordion-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
